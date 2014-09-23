@@ -1,1 +1,63 @@
-Test
+using System;
+
+public class Test
+{
+	public static void Main()
+	{
+		double payment;
+		string name;
+		int ssn;
+		
+		double ahaha = ahaha.calculateInterestRate(typeOfLoan='h', creditRating='c',baseInterestRate=0.04, downPayment=3000, propertyValue=48000 );
+		Console.WriteLine(ahaha);
+	}
+	public double calculateInterestRate(char typeOfLoan, char creditRating, double baseInterestRate, double downPayment, double propertyValue){
+		
+		double interestRate;
+		
+		if(downPayment < Math.Round((propertyValue/10), 2)){
+			interestRate = baseInterestRate+0.01;
+			
+		}
+		else{
+			interestRate = baseInterestRate;
+		}
+		
+		switch(creditRating){
+			case 'a':
+				interestRate = interestRate;
+				break;
+			case 'b':
+				interestRate = interestRate + 0.01;
+				break;
+			case 'c':
+				interestRate = interestRate + 0.02;
+				break;
+			case 'd':
+				interestRate = interestRate + 0.3;
+				break;
+		}
+		
+		
+		switch(typeOfLoan){
+			case 'r':
+				interestRate = interestRate;
+				break;
+			case 'b':
+				interestRate = interestRate + 0.005;
+				break;
+			case 'h':
+				interestRate = interestRate + 0.01;
+				break;
+			case 'e':
+				interestRate = interestRate + 0.025;
+				break;
+			case 'a':
+				interestRate = interestRate + 0.035;
+				break;
+		}
+		return interestRate;
+		
+		
+	}
+}

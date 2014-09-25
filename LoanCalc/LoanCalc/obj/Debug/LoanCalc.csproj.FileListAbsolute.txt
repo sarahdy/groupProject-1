@@ -1,0 +1,5 @@
+H:\IS271\LoanCalc\LoanCalc\bin\Debug\LoanCalc.dll
+H:\IS271\LoanCalc\LoanCalc\bin\Debug\LoanCalc.pdb
+H:\IS271\LoanCalc\LoanCalc\obj\Debug\LoanCalc.csprojResolveAssemblyReference.cache
+H:\IS271\LoanCalc\LoanCalc\obj\Debug\LoanCalc.dll
+H:\IS271\LoanCalc\LoanCalc\obj\Debug\LoanCalc.pdb

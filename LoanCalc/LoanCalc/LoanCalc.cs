@@ -8,6 +8,7 @@ namespace LoanCalc
 {
     public class LoanCalc
     {
+        //Set up the variables, make them public so that the test class can access.
         public double payment { get; set; }
         public string name { get; set; }
         public int ssn { get; set; }
@@ -21,6 +22,7 @@ namespace LoanCalc
         public double totalCost { get; set; }
         public double numYears { get; set;}
 
+        //Create method that calculate interest rate
         public double calculateInterestRate()
         {
             if (downPayment < Math.Round((propertyValue / 10), 2))
@@ -70,10 +72,20 @@ namespace LoanCalc
             }
             return interestRate;
         }
+       
+        //Create method that calculate monthly payment
+        public double calculatePayment()
+        {
+            payment = loanAmount * interestRate / (12 * (1 - Math.Pow(1 + (interestRate / 12), -(numYears*12))));
+            payment = Math.Round(payment, 2);
+            return payment;
+        }
+
+        //Create method that calculate total cost
         public double calculateTotalCost()
         {
             loanAmount = propertyValue - downPayment;
-            totalCost = loanAmount + (loanAmount * interestRate)*numYears;
+            totalCost = payment * numYears * 12 - loanAmount;
             return totalCost;
         }
     }

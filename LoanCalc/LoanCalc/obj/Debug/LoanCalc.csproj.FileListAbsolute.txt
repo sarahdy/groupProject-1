@@ -3,3 +3,8 @@ H:\IS271\LoanCalc\LoanCalc\bin\Debug\LoanCalc.pdb
 H:\IS271\LoanCalc\LoanCalc\obj\Debug\LoanCalc.csprojResolveAssemblyReference.cache
 H:\IS271\LoanCalc\LoanCalc\obj\Debug\LoanCalc.dll
 H:\IS271\LoanCalc\LoanCalc\obj\Debug\LoanCalc.pdb
+C:\Users\dh37\Documents\GitHub\groupProject-1\LoanCalc\LoanCalc\bin\Debug\LoanCalc.dll
+C:\Users\dh37\Documents\GitHub\groupProject-1\LoanCalc\LoanCalc\bin\Debug\LoanCalc.pdb
+C:\Users\dh37\Documents\GitHub\groupProject-1\LoanCalc\LoanCalc\obj\Debug\LoanCalc.csprojResolveAssemblyReference.cache
+C:\Users\dh37\Documents\GitHub\groupProject-1\LoanCalc\LoanCalc\obj\Debug\LoanCalc.dll
+C:\Users\dh37\Documents\GitHub\groupProject-1\LoanCalc\LoanCalc\obj\Debug\LoanCalc.pdb
